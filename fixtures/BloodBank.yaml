@@ -1,0 +1,9 @@
+parameters:
+  email_param: red.cross
+
+App\Entity\BloodBank:
+  bloodBank_{1..5}:
+    name (unique): <company()>
+    email: '<{email_param}>'
+    phone: <phoneNumber()>
+    address: <address()>

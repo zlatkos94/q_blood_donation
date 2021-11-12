@@ -1,0 +1,29 @@
+App\Entity\DonorDonation:
+  donorDonation_{1..9}:
+    bloodDonation: '@bloodDonation_1'
+    donor:  '@donor_<current()>'
+    amount: <randomFloat(1,0,0.8)>
+    success: <boolean()>
+    #createdAt: <datetimeBetween('-50 days', 'now')>
+  donorDonation_10:
+    bloodDonation: '@bloodDonation_2'
+    donor: '@donor_1'
+    amount: <randomFloat(1,0,0.8)>
+    success: <boolean()>
+    #createdAt: <datetimeBetween('-50 days', 'now')>
+  donorDonation_11:
+    bloodDonation: '@bloodDonation_2'
+    donor: '@donor_2'
+    amount: <randomFloat(1,0,0.8)>
+    success: <boolean()>
+    #createdAt: <datetimeBetween('-50 days', 'now')>
+  donorDonation_{12}:
+    bloodDonation: '@bloodDonation_3'
+    donor: '@donor_2'
+    amount: <randomFloat(1,0,0.8)>
+    success: <boolean()>
+    #createdAt: <datetimeBetween('-50 days', 'now')>
+
+
+
+

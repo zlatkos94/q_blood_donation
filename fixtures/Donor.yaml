@@ -1,0 +1,5 @@
+App\Entity\Donor:
+  donor_{1..10}:
+    firstName: <firstName()>
+    lastName: <lastName()>
+    bloodGroup: '@bloodGroup_*'

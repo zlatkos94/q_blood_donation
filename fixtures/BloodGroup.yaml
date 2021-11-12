@@ -1,0 +1,4 @@
+App\Entity\BloodGroup:
+  bloodGroup_{1..8}:
+    name (unique): <bloodGroup()>
+

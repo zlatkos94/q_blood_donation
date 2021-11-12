@@ -1,0 +1,5 @@
+App\Entity\BloodDonation:
+  bloodDonation_{1..3}:
+    bloodBank: '@bloodBank_*'
+    location: <city()>
+    date: <datetimeBetween('-50 days', 'now')>
