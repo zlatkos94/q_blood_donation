@@ -1,8 +1,8 @@
-# Install dependencies
-composer install
-
 # Configure environment
 Copy env.example to root folder (same folder) and rename to .env
+
+# Install dependencies
+composer install
 
 # Database Create
 php bin/console doctrine:database:create
